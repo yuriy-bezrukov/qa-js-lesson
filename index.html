@@ -1,0 +1,28 @@
+<script>
+    let a = 7;
+    let b = 54;
+    let c = 6;
+
+    function discriminant(a, b, c) {
+        let result = b * b + 4 * a * c;
+        return result;
+    }
+
+    let d = discriminant(a, b, c);
+    let x1 = (-b + Math.sqrt(d)) / (2 * a);
+    let x2 = (-b - Math.sqrt(d)) / (2 * a);
+
+    // console.log(x1);
+    // console.log(x2);
+
+    let users = ['tom', 'ken', 'bob'];
+
+    for (let i = 2; i > -1; i--) {
+        console.log(i);
+        console.log(users[i]);
+        console.log(users);
+    }
+
+    // f = users[0]
+
+</script>
